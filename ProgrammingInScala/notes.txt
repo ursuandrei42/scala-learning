@@ -13,4 +13,9 @@ In Scala, constructors other than the primary constructor are called auxiliary c
 In Scala, every auxiliary constructor must invoke another constructor of
 the same class as its first action.
 
-An initializer is the code that initializes a variable 
+An initializer is the code that initializes a variable
+
+Ch7 Build-in control structures
+The while and do-while constructs are called “loops,” not expressions,
+because they don’t result in an interesting value. The type of the result is
+Unit.  
