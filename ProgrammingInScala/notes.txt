@@ -1,0 +1,16 @@
+Ch6 Functional Objects
+Rational numbers do not have mutable state. You can add one rational number to
+another, but the result will be a new rational number. The original numbers will not have “changed.” The immutable Rational class we’ll design
+in this chapter will have the same property.
+
+class Rational(n: Int, d: Int)
+The identifiers n and d in the parentheses after the class name, Rational, are called class parameters.
+This initial Rational example highlights a difference between Java and
+Scala. In Java, classes have constructors, which can take parameters,
+whereas in Scala, classes can take parameters directly.
+
+In Scala, constructors other than the primary constructor are called auxiliary constructors.
+In Scala, every auxiliary constructor must invoke another constructor of
+the same class as its first action.
+
+An initializer is the code that initializes a variable 
